@@ -26,7 +26,7 @@ function App() {
           "Content-Type": "application/json"
         },
         body: JSON.stringify({
-          model: "mistralai/mistral-7b-instruct",
+          model: "model: "deepseek-ai/deepseek-chat:free",
           messages: [
             { role: "system", content: "You are a helpful assistant." },
             { role: "user", content: input }
